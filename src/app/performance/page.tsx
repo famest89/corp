@@ -1,13 +1,8 @@
 import performanceImg from '../../../public/performance.jpg';
 import Hero from '@/components/Hero';
 
-type PageProps = {
-	children?: React.ReactNode;
-	// props....
-};
-
 // ?======================================================//
-const PerformancePage = ({ children }: PageProps) => {
+const PerformancePage = () => {
 	return (
 		<Hero
 			imgData={performanceImg}

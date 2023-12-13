@@ -1,13 +1,8 @@
 import reliabilityImg from '../../../public/reliability.jpg';
 import Hero from '@/components/Hero';
 
-type PageProps = {
-	children?: React.ReactNode;
-	// props....
-};
-
 // ?======================================================//
-const ReliabilityPage = ({ children }: PageProps) => {
+const ReliabilityPage = () => {
 	return (
 		<Hero
 			imgData={reliabilityImg}

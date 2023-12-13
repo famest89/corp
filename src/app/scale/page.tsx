@@ -1,13 +1,8 @@
 import scaleImg from '../../../public/scale.jpg';
 import Hero from '@/components/Hero';
 
-type PageProps = {
-	children?: React.ReactNode;
-	// props....
-};
-
 // ?======================================================//
-const ScalePage = ({ children }: PageProps) => {
+const ScalePage = () => {
 	return (
 		<Hero
 			imgData={scaleImg}
