@@ -9,8 +9,8 @@ type PageProps = {
 const Header = ({ children }: PageProps) => {
 	return (
 		<div className='w-full absolute text-white z-10'>
-			<nav className='containr relative flex flex-wrap items-center justify-between mx-auto p-8'>
-				<Link href='/' className='font-bond text-3xl'>
+			<nav className='container relative flex flex-wrap items-center justify-between mx-auto p-8'>
+				<Link href='/' className='font-bold text-3xl'>
 					Home
 				</Link>
 				<div className='space-x-4 text-xl'>
